@@ -1,0 +1,44 @@
+
+
+.success-hero-secrion {
+  background-image: linear-gradient(
+      to right,
+      rgba(5, 5, 4, 0.694),
+      rgba(7, 7, 7, 0.703)
+    ),
+    url("../img/success-story-image-header.6f0d9c1ae773656901a3.png");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5px;
+
+  margin-top: 120px;
+}
+
+.success-hero-secrion-1 {
+  justify-content: center !important;
+  align-items: center !important;
+/* border: 2px solid red ; */
+  height: 75vh;
+}
+
+.success-hero-secrion-1>div>h2>a{
+  text-decoration: none;
+  color: #f6f9fd;
+}
+.bold{
+  font-weight: bold;
+}
+.p-3 {
+  text-align: justify;
+  font-size: 17px !important;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.testimonials-1 {
+  background-color: #f6f9fd;
+  padding-top: 20px;
+
+  padding-bottom: 50px;
+}

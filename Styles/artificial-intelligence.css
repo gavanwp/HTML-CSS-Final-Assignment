@@ -1,0 +1,70 @@
+.success-hero-secrion {
+    background-image: linear-gradient(
+        to right,
+        rgba(4, 4, 5, 0.493),
+        rgba(7, 7, 7, 0.539)
+      ),
+      url("../img/artificial-intelligence-header.5994af4aa5f69b57610e.png");
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5px;
+  
+    margin-top: 120px;
+  }
+  
+  .success-hero-secrion-1 {
+    justify-content: center !important;
+    align-items: center !important;
+  /* border: 2px solid red ; */
+    height: 75vh;
+  }
+  
+  .success-hero-secrion-1>div>h2>a{
+    text-decoration: none;
+    color: #f6f9fd;
+  }
+  .bold{
+    font-weight: bold;
+  }
+  .p-3 {
+    text-align: justify;
+    font-size: 17px !important;
+    line-height: 32px;
+    font-weight: 600;
+  }
+
+  .img5{
+    width: 30vw;
+    height: 55vh;
+  }
+
+
+  /* section 4 */
+  .aI-services {
+    margin-bottom: 50px;
+    padding-top: 50px;
+  }
+
+
+  .font-weight-bold-1{
+    font-weight: bold !important;
+  color: #bc2026;
+  margin-left: 15px;
+  }
+
+
+  /* Section 5  */
+
+
+  .ai-expert{
+    padding-bottom: 30px;
+  }
+
+  .box-2 {
+    align-items: center !important;
+    padding-top: 100px;
+   height: 500px;
+   border: 2px solid #BC2026;
+   border-radius: 5px;
+  }

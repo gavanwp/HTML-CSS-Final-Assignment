@@ -1,0 +1,83 @@
+/* SEction 1 */
+
+.about-hero-secrion {
+  background-image: url("../img/about-banner.0f1b5dc081af35555af6.png");
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+}
+
+/* section 2  */
+
+.img5 {
+  width: 25vw;
+}
+
+.p-2 {
+  font-size: 17px !important;
+  line-height: 32px;
+}
+
+/* Section 3  */
+.about-page-background-image {
+  height: 190vh;
+  background-image: url("../img/step-card-bg.d0a44c785dbb9a72d76d.png");
+  background-size: cover;
+  padding-top: 80px;
+}
+
+.card {
+  margin-left: 20px;
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.486);
+}
+
+.box-1 {
+  align-items: center !important;
+  padding-top: 150px;
+ height: 500px;
+ border: 2px solid #BC2026;
+ border-radius: 5px;
+}
+
+
+
+.custome-border-1 {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: #bc2026;
+  position: relative;
+}
+
+
+.bold{
+  font-weight: bold;
+}
+
+
+.img-box{
+  position: absolute;
+top: 15px;
+right: 15px;
+}
+
+
+.mission-1 {
+  align-items: center;
+  justify-content: center;
+}
+.mission-1 > p {
+  line-height: 25px !important;
+  font-size: 14px !important;
+}
+/* 
+Section-5  */
+
+#section-5 {
+  margin-top: 50px !important;
+  margin-bottom: 30px !important;
+}
