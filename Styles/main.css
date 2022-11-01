@@ -3,11 +3,9 @@
   src: url(../assets/fonts/Poppins-Regular.ttf);
 }
 
-body{
+body {
   font-family: Poppins !important;
 }
-
-
 
 .social-icons {
   display: flex;
@@ -18,27 +16,22 @@ body{
   left: 96%;
 }
 
- 
-
 /* Section-1  */
-
 
 .nav-position-fixed {
   position: fixed;
   top: 0px;
-  z-index: 2;
+  z-index: 10;
   right: 0px;
   left: 0px;
 
-  box-shadow: rgba(219, 219, 219, 0.21) 0px 5px 10px, rgba(201, 201, 201, 0.233) 0px 6px 6px;
-
-
+  box-shadow: rgba(219, 219, 219, 0.21) 0px 5px 10px,
+    rgba(201, 201, 201, 0.233) 0px 6px 6px;
 }
 
 .main-container {
   position: relative;
 }
-
 
 .myid {
   margin-bottom: 5px;
@@ -52,53 +45,48 @@ body{
   font-size: 20px !important ;
 }
 
-
 .icon-margin {
- margin-right: 6px;
- width: 30px;
- height: 30px;
- border-radius: 50%;
- border: 2px solid white;
- position: relative;
-
+  margin-right: 6px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: relative;
 }
-.icon-margin2{
+.icon-margin2 {
   position: absolute;
   left: 5px;
   top: 1px;
 }
 
-.icon-margin3{
+.icon-margin3 {
   position: absolute;
   left: 5px;
   top: 3px;
 }
 
-.icon-margin4{
+.icon-margin4 {
   position: absolute;
   left: 5px;
   top: 2px;
 }
 
-
-
-
-
-
-
-
-
-
 .bmarign {
-  margin-right: 200px !important;
+  margin-right: 280px !important;
 }
 
-.bg-color-1{
+.bmarign-1 {
+  padding: 8px 35px;
+  background-color: #bc2026;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-right: 100px;
+}
+
+.bg-color-1 {
   background-color: #bc2026 !important;
-  
-
 }
-
 
 .container-lg {
   margin-right: 50px !important ;
@@ -112,18 +100,10 @@ body{
   padding-bottom: 5px;
 }
 
-
-.navbar-font-size{
+.navbar-font-size {
   font-size: 16px !important;
   font-weight: bold !important;
 }
-
-
-
-
-
-
-
 
 /* Hero Section Start...  */
 
@@ -152,22 +132,48 @@ body{
 }
 
 .div2 {
-  /* height: 400px;
-  width: 450px !important;
-
-  background-image: url(../img/home-section-1-user.png);
+  /* height: 380px;
+  width: 420px !important;
+  
+  background-image: url(../img/home-section-1-image.png);
   background-size: cover;
-  z-index: 10; */
-
-  width: 28vw;
+  z-index: 2 !important;
+  margin-top: 30px; */
+  width: 450px;
 }
 
+/* updated  */ 
+
+.hero-section-bg-image {
+  width: 480px !important;
+  height: 450px;
+  background-image: url("../img/home-section-1-user.png") !important;
+  background-size: 430px;
+  background-repeat: no-repeat;
+  z-index: 2;
+  margin-top: 110px !important;
+  margin-left: 50px;
+}
+
+
+
 .button1 {
-  width: 180px;
-  height: 50px;
   font-weight: bold !important;
   margin-top: 40px;
-  font-size: 20px !important;
+  font-size: 16px !important;
+}
+.butt {
+  width: 160px;
+  height: 45px;
+  /* background-color: white; */
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.butt:hover {
+  background-color: #bc2026;
+  color: white;
+  border: none;
 }
 
 /* <!-- Section 2  --> */
@@ -180,7 +186,6 @@ body{
   font-weight: bold !important;
   color: #bc2026;
   margin-left: 5px;
-
 }
 .p-1 {
   font-size: 18px !important;
@@ -188,11 +193,23 @@ body{
   font-weight: 400;
   text-align: justify;
 }
-.mybutton {
-  border: 2px solid #bc2026 !important;
-  width: 180px !important;
 
-  font-weight: bold !important;
+.mybutton > button:hover {
+  border: none;
+  color: white;
+  background-color: #bc2026;
+}
+
+.mybutton > button {
+  width: 195px;
+  height: 45px;
+  color: #bc2026;
+  outline: #bc2026;
+  font-weight: bold;
+  border-color: #bc2026;
+  font-size: 15px;
+  float: right;
+  background-color: white;
 }
 
 .img3 {
@@ -213,6 +230,7 @@ body{
 
 .custome-height {
   height: 300px;
+  width: 82% !important;
   background-color: #bc2026;
   float: left;
 
@@ -294,6 +312,17 @@ body{
 .button-1 > img {
   width: 50px;
   margin-top: 10px;
+}
+
+.app-developement {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.app-developement > h6 {
+  padding-top: 10px;
+}
+.bold {
+  font-weight: bold;
 }
 .mobile-imgae {
   background-image: url(../img/mobile-mockup.75cbb033038412be9d7e.png);
@@ -587,13 +616,36 @@ input:checked + label {
 }
 
 /* <!-- Section - 9 --> */
-.section-10 {
+
+/* .section-10 {
   padding-top: 40px;
 
   height: auto;
 }
 .section-10 > h1 {
   padding-bottom: 20px;
+} */
+
+.CLIENT-TESTIMONIALS {
+  width: 100%;
+}
+.CLIENT {
+  display: flex;
+  justify-content: center;
+}
+.CLIENT > h3 {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 35px 0px 30px 0px;
+}
+.ifarme-vedio > iframe {
+  display: flex;
+  justify-content: center;
+}
+.ifarme-vedio {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
 }
 
 /* section-11 */
