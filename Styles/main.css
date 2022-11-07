@@ -142,7 +142,7 @@ body {
   width: 450px;
 }
 
-/* updated  */ 
+/* updated  */
 
 .hero-section-bg-image {
   width: 480px !important;
@@ -154,8 +154,6 @@ body {
   margin-top: 110px !important;
   margin-left: 50px;
 }
-
-
 
 .button1 {
   font-weight: bold !important;
@@ -664,13 +662,23 @@ input:checked + label {
   align-items: center !important;
   height: 400px;
 }
-.align-items-custom > div > h1 + p {
+.align-items-custom > div > h1 {
   font-weight: bold;
 }
 
-mybutton-4 {
-  height: 50px !important;
+
+
+.bmarign-3 {
+ 
+  background-color: #bc2026;
+  border: none;
+  color: white;
+  font-weight: bold;
+  width: 180px;
+ 
 }
+
+
 
 /* Section 12  */
 
